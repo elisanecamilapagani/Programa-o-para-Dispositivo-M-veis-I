@@ -30,12 +30,6 @@ class _CidadeState extends State<Cidade> {
         padding: EdgeInsets.all(20),
         child: Column(
           children: [
-            Text(
-              'Digite a cidade que deseja visualizar as previsões?',
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
             Padding(padding: EdgeInsets.all(20)),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
